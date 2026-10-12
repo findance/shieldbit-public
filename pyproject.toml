@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=83.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shieldbit"
+version = "0.1.0"
+description = "ShieldBit — A quantum-safe coin using ML-DSA post-quantum signatures"
+readme = "README.md"
+authors = [
+    { name = "Vipul Tomar", email = "findance@shieldbit.org" }
+]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=50.0.2",
+    "click>=8.0.0",
+    "python-bitcoinlib==0.12.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/findance/shieldbit"
+
+[project.scripts]
+shieldbit = "shieldbit.cli.main:cli"
+
+[tool.setuptools.packages.find]
+include = ["shieldbit*"]

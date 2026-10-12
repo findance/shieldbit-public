@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.egg-info/
+.local-*/
+.env
+.env.*
+*.pem
+*.key
+*.salt
+wallet.json*
+*.db
+*.db-*
+*.sqlite*
+.DS_Store
