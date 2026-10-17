@@ -1,0 +1,1 @@
+1477b0ff77406f023bb40575974f5cd6cf6b059a666510be93c3baa0e4fb2a20  shieldbit-linux-x86_64-c5cb556.tar.gz
